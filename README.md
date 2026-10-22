@@ -7,7 +7,7 @@ scenario configurations needed to rerun the microsimulations.
 
 - Author: Mehdi Attioui, LMIAD, ENS, Hassan II University of Casablanca
 - Version: 2.2 (2026-10-22). Changes from v2.1: see `CHANGELOG.md`
-- DOI of this version: 10.5281/zenodo.<DOI-v2.2>
+- DOI of this version: 10.5281/zenodo.21794792
 - Licence: CC BY 4.0 (`LICENSE`)
 
 ## Contents
@@ -72,10 +72,10 @@ Meteorology: `temperature_c`, `humidity_pct`, `wind_speed_ms`, `precipitation_mm
   major version.
 - `is_friday_prayer` uses a fixed 12:00-14:55 window rather than a window around the
   local Dhuhr time.
-- TODO-AUTHOR: state the time zone of `timestamp` (UTC, or Moroccan civil time
-  with or without the change to UTC+0 during Ramadan).
+- The time zone of `timestamp` (UTC or Moroccan civil time, and the handling of the
+  change to UTC+0 during Ramadan) is not documented in v2.1 or v2.2.
 
 ## Citation
 
 Attioui, M. (2026). Casablanca-SUMO v2.2 [Data set]. Zenodo.
-https://doi.org/10.5281/zenodo.<DOI-v2.2>
+https://doi.org/10.5281/zenodo.21794792

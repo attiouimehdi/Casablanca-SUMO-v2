@@ -17,6 +17,8 @@
   checks this.
 - Added a full `README.md` with a column dictionary and known limitations.
 - Regenerated `CHECKSUMS.sha256` so that it lists exactly the files of the release.
+- Removed `SUMO_Casablanca_OSM_Dataset_v2.ipynb` from the manifest: it was listed in
+  the v2.1 manifest but not included in the published files.
 - Routes, scenario configurations and summary outputs are unchanged from v2.1.
 
 ## v2.1 (2026-07-24)
